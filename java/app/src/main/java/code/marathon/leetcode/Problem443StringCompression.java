@@ -1,7 +1,7 @@
 package code.marathon.leetcode;
 
 /**
- * https://leetcode.com/problems/string-compression/description/
+ * <a href="https://leetcode.com/problems/string-compression/description/">LeetCode: String Compression</a>
  * [ Time taken: 22 m 6 s ]
  * O(n) time
  */
