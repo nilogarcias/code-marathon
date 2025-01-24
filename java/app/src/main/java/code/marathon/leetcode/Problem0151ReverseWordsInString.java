@@ -2,6 +2,7 @@ package code.marathon.leetcode;
 
 import java.util.StringTokenizer;
 
+// O(n)
 public class Problem0151ReverseWordsInString {
     public String reverseWords(String s) {
         StringBuilder sb = new StringBuilder(s.length());

@@ -1,5 +1,6 @@
 package code.marathon.leetcode;
 
+// O(n)
 public class Problem2095DeleteMiddleNodeOfLinkedList {
     public ListNode deleteMiddle(ListNode head) {
         ListNode prevMiddle = null;
