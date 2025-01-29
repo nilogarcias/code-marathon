@@ -31,11 +31,10 @@ public class Problem0283MoveZeroes {
 
     public void moveZeroes(int[] nums) {
         int j = 0;
-        int temp;
         int n = nums.length;
         for (int i = 0; i < n; i++) {
             if (nums[i] != 0) {
-                temp = nums[i];
+                int temp = nums[i];
                 nums[i] = 0;
                 nums[j++] = temp;
             }
