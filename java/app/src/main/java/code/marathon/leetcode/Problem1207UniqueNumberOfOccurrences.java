@@ -12,14 +12,14 @@ public class Problem1207UniqueNumberOfOccurrences {
     // Complexity: O(n)
     // Space: O(n)
     private boolean uniqueOccurrencesUsingMapAndSet(int[] arr) {
-        Map<Integer, Integer> numOccurences = new HashMap<>();
+        Map<Integer, Integer> numOccurrences = new HashMap<>();
 
         for (int num : arr) {
-            numOccurences.put(num, numOccurences.getOrDefault(num, 0) + 1);
+            numOccurrences.put(num, numOccurrences.getOrDefault(num, 0) + 1);
         }
 
         Set<Integer> occurrences = new HashSet<>();
-        for (int occurrence : numOccurences.values()) {
+        for (int occurrence : numOccurrences.values()) {
             if (occurrences.contains(occurrence)) {
                 return false;
             }
