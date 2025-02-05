@@ -29,7 +29,7 @@ public class Problem0994RottingOranges {
         while (!rottingOranges.isEmpty() && freshOrangesCount > 0) {
 
             // Processing all rotting oranges inserted in the previous iteration
-            for (int oranges = rottingOranges.size(); oranges > 0; oranges--) {
+            for (int oranges = rottingOranges.size(); oranges > 0 && !rottingOranges.isEmpty(); oranges--) {
                 int[] rottingOrange = rottingOranges.poll();
 
                 for (int dir = 0; dir < 4; dir++) {
